@@ -2,6 +2,7 @@ from app import *
 
 def main():
     sneaker_list = []
+    load_data(sneaker_list)
     
     while True:
         print('1. Add sneaker\n2. Remove sneaker\n3. Show sneaker info\n4. Exit')
